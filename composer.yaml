@@ -9,12 +9,12 @@
   tasks:
 
     - name:  Configure Composer Source Content for RHEL 8 base
-      yum_repository:
+      yum_repository:it clone https://github.com/michaellessard/ansible-rhel8.git
         name: composer-rhel-8-BaseOS
         description: Red Hat Enterprise Linux 8 Server (RPMs)
         file: composer
         metadata_expire: 86400
-        baseurl: file:///{{ MNT_REPOS_BASE }}
+        baseurl: file:///{{ MOUNT_REPOS_BASE }}
         gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
         enabled: 1
         gpgcheck: 1
