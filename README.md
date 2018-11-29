@@ -1,7 +1,7 @@
 # ansible-rhel8
 Playbooks that automate some cool stuff in RHEL 8
 
-Composer.yaml  
+composer.yaml  
 -------------------
 Composer website : https://github.com/weldr/lorax
 
