@@ -26,7 +26,7 @@
         description: Red Hat Enterprise Linux 8 AppStream
         file: composer
         metadata_expire: 86400
-        baseurl: files:///{{ MOUNT_REPOS_APPSTREAM }}
+        baseurl: file:///{{ MOUNT_REPOS_APPSTREAM }}
         gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
         enabled: 1
         gpgcheck: 1
