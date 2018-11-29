@@ -7,7 +7,7 @@ Composer website : https://github.com/weldr/lorax
 
 This playbook will install and configure everything Composer needs to work. 
 
-Requirement : 
+Requirements : 
   1. copy the BaseOS and the Appstream directory from the RHEL 8 iso in a directory  
   2. ansible-galaxy install linux-system-roles.firewall
   3. RHEL 8 Beta requires some tricks to work with Ansible : 
